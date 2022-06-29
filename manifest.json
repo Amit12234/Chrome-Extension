@@ -1,0 +1,16 @@
+{
+   
+    "name": "Chrome Extesnion",
+    "version" : "1.0",
+    "manifest_version": 2, 
+    "browser_action" : {
+    "default_popup": "popup.html",
+     "default_icon " : "img2.jpg"
+    } , 
+    "icons" :{ 
+        "128" : "img2.jpg"
+    },
+    
+    "permissions" : ["activeTab"]
+    
+}
